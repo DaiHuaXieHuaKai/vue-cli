@@ -256,15 +256,15 @@ Please refer to the [Firebase Documentation](https://firebase.google.com/docs/ho
 
 ### Surge
 
-To deploy with [Surge](http://surge.sh/) the steps are very straightforward.
+使用 [Surge](http://surge.sh/) 部署的步骤非常直截了当.
 
-First you would need to build your project by running `npm run build`. And if you haven't installed Surge's command line tool, you can simply do so by running the command:
+首先你需要运行 `npm run build` 构建你的项目. 如果你还没有安装 Surge 的命令行工具, 你可以通过运行一下命令来完成:
 
 ```
 npm install --global surge
 ```
 
-Then cd into the `dist/` folder of your project and then run `surge` and follow the screen prompt. It will ask you to set up email and password if it is the first time you are using Surge. Confirm the project folder and type in your preferred domain and watch your project being deployed such as below.
+然后cd到你项目的 `dist/` 文件夹，并运行 `surge` 接着按照屏幕提示. 如果你是第一次使用Surge，它会让你设置邮箱和密码. 确认项目文件夹并键入首选域并查看正在部署的项目，如下所示.
 
 ```
             project: /Users/user/Documents/myawesomeproject/dist/
@@ -276,7 +276,7 @@ Then cd into the `dist/` folder of your project and then run `surge` and follow 
    Success! - Published to myawesomeproject.surge.sh
 ```
 
-Verify your project is successfully published by Surge by visiting `myawesomeproject.surge.sh`, vola! For more setup details such as custom domains, you can visit [Surge's help page](https://surge.sh/help/).
+通过访问 `myawesomeproject.surge.sh` 验证你的项目是否通过Surge部署成功, 有关更多设置的详细信息，例如自定义域, 你可以访问 [Surge's 帮助页面](https://surge.sh/help/).
 
 ### Bitbucket Cloud
 
